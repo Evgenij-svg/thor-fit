@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&display=swap');
+
+body {
+    margin: 0; 
+    background: #09080E; 
+    color: #FFFDE8; 
+    font-family: 'Russo One'; 
+    letter-spacing: 2px;
+}
+.shell {
+    display: flex; 
+    min-height: 100vh; 
+}
+.nav {
+    width: 300px; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
+}
+
+.nav__link { 
+    width: 210px;
+    height: 60px;
+    color: #09080E; 
+    text-decoration: none; 
+    align-content: center;
+    text-align: center;
+    border-radius: 40px; 
+    background-color: #B6FF00;
+    font-size: 30px;
+}
+.nav__link.active { 
+    background: #7A38E6; 
+    color: #FFFDE8; 
+}
+input{
+    font-family: 'Russo One'; 
+    letter-spacing: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button{
+    font-family: 'Russo One'; 
+    letter-spacing: 2px;
+}

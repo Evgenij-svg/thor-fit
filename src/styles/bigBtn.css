@@ -1,0 +1,20 @@
+.bigBtn {
+    background-color: #B6FF00;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    color: #09080E;
+    font-family: 'Russo One', sans-serif; 
+    letter-spacing: 1px;
+    box-shadow: #7cb815 0px 5px 0px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.bigBtn:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}

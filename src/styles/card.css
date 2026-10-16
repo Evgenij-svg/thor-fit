@@ -1,0 +1,62 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.Card { 
+    width: 190px;
+    height: 240px;
+    background-color: #09080E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 35px;
+    border: solid #FEBE5D 6px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.textCard {
+    color: #FFFDE8;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.Card span:first-child {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Card span:nth-child(2) {
+    font-size: 14px;
+    color: #FEBE5D;
+    margin-top: 5px;
+}
+
+.CardBtn {
+    background-color: #FD5D5D;
+    border-radius: 20px;
+    width: 140px;
+    height: 38px;
+    border: none;
+    color: #FFFDE8; 
+    font-family: 'Russo One', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: #c94949 0px 4px 0px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    margin-top: 5px;
+}
+
+
+.CardBtn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}

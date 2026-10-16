@@ -1,0 +1,62 @@
+.popUp {
+    background-color: #B6FF00;
+    border: solid #09080E 6px;
+    border-radius: 35px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.inputpPopUp {
+    background-color: #09080E;
+    border: solid #FFFDE8 4px;
+    border-radius: 20px;
+    height: 45px;
+    font-size: 16px;
+    color: #FFFDE8;
+    font-family: 'Russo One', sans-serif;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+    flex: 1;
+    min-width: 200px;
+}
+
+
+.inputpPopUp::placeholder {
+    color: rgba(255, 253, 232, 0.6);
+}
+
+
+.addBtnpopUp, .editBtnpopUp {
+    background-color: #09080E; 
+    border: solid #FEBE5D 4px;
+    border-radius: 20px;
+    height: 45px;
+    padding: 0 30px;
+    color: #FFFDE8;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #000000 0px 4px 0px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+
+.addBtnpopUp:active, .editBtnpopUp:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}

@@ -1,0 +1,18 @@
+.searchBar {
+    background-color: #09080E;
+    width: 100%;
+    max-width: 450px;
+    height: 55px;
+    border: solid #FFFDE8 4px;
+    border-radius: 20px;
+    font-size: 22px;
+    color: #FFFDE8; 
+    font-family: 'Russo One', sans-serif;
+    padding: 0 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.searchBar::placeholder {
+    color: #FFFDE8; 
+}
