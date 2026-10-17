@@ -9,3 +9,6 @@
 2) 2-ая задача
 3) в папке dist есть уже готовая html страница иначе же надо npm install потом лив npm run dev для запуска типо режима для разработки иили же npm run build для билдинга приложения
 4) Вся информация хранится в localstorage, был использован webpack для сборки приложения использовался native js
+
+
+https://mega.nz/folder/8IInSJZA#fUnRYDvwr6X7K5_rwxwwUg -- ссылка на видео
